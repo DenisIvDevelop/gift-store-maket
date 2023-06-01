@@ -14,6 +14,7 @@
 .gifts-blocks {
   display: flex;
   justify-content: space-between;
+  gap: 10px;
 }
 
 .gifts-item {
@@ -49,5 +50,13 @@
         text-decoration: underline;
       }
     }
+  }
+}
+
+@media (max-width: 800px) {
+  .gifts-blocks {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    row-gap: 2rem;
   }
 }
