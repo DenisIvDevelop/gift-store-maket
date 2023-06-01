@@ -23,6 +23,7 @@ body {
 .wrap {
 	@include min-max(320px, 1170px, 15px);
 }
+
 .centered{
 	text-align: center;
 	font-size: px-to-rem(32px);
