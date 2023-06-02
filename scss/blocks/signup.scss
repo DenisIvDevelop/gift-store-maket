@@ -43,3 +43,31 @@
   font-size: px-to-rem(18px);
   display: inline-block;
 }
+
+@media (max-width: 900px) {
+  .signup {
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .signup-txt {
+    margin-bottom: 36px;
+  }
+}
+
+@media (max-width: 900px) {
+  .signup-txt {
+    text-align: center;
+  }
+
+  .signup-btn {
+    width: 100%;
+  }
+
+  .btn-black, .btn-transparent-black {
+    display: block;
+    width: 270px;
+    margin: 0 auto 16px auto;
+    text-align: center;
+  }
+}
