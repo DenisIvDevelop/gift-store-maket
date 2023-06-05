@@ -472,4 +472,48 @@ p.posts-item-read a {
 p.posts-item-read a:hover {
   text-decoration: underline;
 }
+
+@media (max-width: 900px) {
+  .post-big-img {
+    margin-right: 30px;
+  }
+  .post-big-txt {
+    padding-right: 15px;
+  }
+  .post-big-txt h2 {
+    font-size: 2rem;
+    line-height: 2.9375rem;
+    margin-bottom: 30px;
+    font-weight: 300;
+  }
+  .post-author {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    margin-bottom: 15px;
+  }
+}
+@media (max-width: 800px) {
+  .post-block {
+    grid-template-columns: 1fr;
+    grid-template-areas: "postbig" "post-left" "post-right";
+    row-gap: 20px;
+    column-gap: 0;
+  }
+}
+@media (max-width: 540px) {
+  .post-big {
+    flex-direction: column;
+    padding: 30px 0;
+  }
+  .post-big-img {
+    margin: 0 auto 20px auto;
+  }
+  .post-big-txt {
+    max-width: 400px;
+    padding: 0 15px;
+  }
+  .posts-item {
+    padding: 25px 15px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
